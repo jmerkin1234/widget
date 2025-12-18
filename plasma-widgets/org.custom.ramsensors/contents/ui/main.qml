@@ -1,17 +1,16 @@
-import QtQuick 2.15
-import QtQuick.Layouts 1.15
-import org.kde.plasma.plasmoid 2.0
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.ksysguard.sensors 1.0 as Sensors
+import QtQuick
+import QtQuick.Layouts
+import org.kde.plasmoid
+import org.kde.ksysguard.sensors as Sensors
 
 Item {
     Plasmoid.preferredRepresentation: Plasmoid.compactRepresentation
 
-    property bool showIcon: plasmoid.configuration.showIcon || false
-    property bool showLabel: plasmoid.configuration.showLabel !== false
-    property string textColor: plasmoid.configuration.textColor || "#ffff00"
-    property int fontSize: plasmoid.configuration.fontSize || 30
-    property int iconSize: plasmoid.configuration.iconSize || 30
+    property bool showIcon: Plasmoid.configuration.showIcon || false
+    property bool showLabel: Plasmoid.configuration.showLabel !== false
+    property string textColor: Plasmoid.configuration.textColor || "#ffff00"
+    property int fontSize: Plasmoid.configuration.fontSize || 30
+    property int iconSize: Plasmoid.configuration.iconSize || 30
 
     Plasmoid.compactRepresentation: RowLayout {
         Layout.margins: 5
