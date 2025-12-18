@@ -1,21 +1,20 @@
-import QtQuick 2.15
-import QtQuick.Layouts 1.15
-import org.kde.plasma.plasmoid 2.0
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.ksysguard.sensors 1.0 as Sensors
+import QtQuick
+import QtQuick.Layouts
+import org.kde.plasmoid
+import org.kde.ksysguard.sensors as Sensors
 
 Item {
     Plasmoid.preferredRepresentation: Plasmoid.compactRepresentation
 
-    property int gpuIndex: plasmoid.configuration.gpuIndex || 1
-    property bool showUsage: plasmoid.configuration.showUsage
-    property bool showTemp: plasmoid.configuration.showTemp
-    property bool showFan: plasmoid.configuration.showFan
-    property bool showIcon: plasmoid.configuration.showIcon || false
-    property bool showLabel: plasmoid.configuration.showLabel !== false
-    property string textColor: plasmoid.configuration.textColor || "#00ffff"
-    property int fontSize: plasmoid.configuration.fontSize || 30
-    property int iconSize: plasmoid.configuration.iconSize || 30
+    property int gpuIndex: Plasmoid.configuration.gpuIndex || 1
+    property bool showUsage: Plasmoid.configuration.showUsage
+    property bool showTemp: Plasmoid.configuration.showTemp
+    property bool showFan: Plasmoid.configuration.showFan
+    property bool showIcon: Plasmoid.configuration.showIcon || false
+    property bool showLabel: Plasmoid.configuration.showLabel !== false
+    property string textColor: Plasmoid.configuration.textColor || "#00ffff"
+    property int fontSize: Plasmoid.configuration.fontSize || 30
+    property int iconSize: Plasmoid.configuration.iconSize || 30
 
     Plasmoid.compactRepresentation: RowLayout {
         Layout.margins: 5
