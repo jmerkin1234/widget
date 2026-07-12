@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Id": "org.kde.plasma.sensorcustommonitor",
+        "Name": "Sensor Daddy",
+        "Description": "Displays CPU, RAM, GPU, storage, and network stats with customizable fonts, colors, and an adaptive desktop/panel layout",
+        "Icon": "utilities-system-monitor",
+        "Authors": [
+            {
+                "Name": "Daddy",
+                "Email": "fuckboy"
+            }
+        ],
+        "Category": "System Information",
+        "License": "GPL-3.0+",
+        "Version": "2.7",
+        "Website": ""
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": ["org.kde.plasma.systemcustommonitor", "org.kde.plasma.systemmonitor"],
+    "X-Plasma-RootPath": "org.kde.plasma.systemmonitor",
+    "KPackageStructure": "Plasma/Applet"
+}

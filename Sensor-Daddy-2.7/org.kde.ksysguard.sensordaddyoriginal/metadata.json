@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "KSysguard/SensorFace",
+    "KPlugin": {
+        "Id": "org.kde.ksysguard.sensordaddyoriginal",
+        "Name": "Sensor Daddy (Original)",
+        "Description": "Selects Sensor Daddy's original customizable layout",
+        "Icon": "utilities-system-monitor",
+        "Authors": [
+            {
+                "Name": "Daddy"
+            }
+        ],
+        "License": "GPL-3.0+",
+        "Version": "2.7",
+        "Website": ""
+    },
+    "X-KDE-ParentApp": "org.kde.plasmashell"
+}

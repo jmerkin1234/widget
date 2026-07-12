@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    
+    <group name="General">
+        <!-- CPU Settings -->
+        <entry name="cpuFontSize" type="Int">
+            <default>12</default>
+        </entry>
+        <entry name="cpuFontColor" type="String">
+            <default>#00FF00</default>
+        </entry>
+        <entry name="cpuTempSensor" type="String">
+            <default>cpu/cpu0/temperature</default>
+        </entry>
+        <entry name="cpuUsageSensor" type="String">
+            <default>cpu/all/usage</default>
+        </entry>
+        <entry name="showCpu" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="cpuBold" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="cpuLabelColor" type="String">
+            <default>#FFFFFF</default>
+        </entry>
+        <entry name="cpuPrecision" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="cpuUseIcon" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="cpuIconPath" type="String">
+            <default>cpu</default>
+        </entry>
+        <entry name="cpuIconSize" type="Int">
+            <default>16</default>
+        </entry>
+        
+        <!-- RAM Settings -->
+        <entry name="ramFontSize" type="Int">
+            <default>12</default>
+        </entry>
+        <entry name="ramFontColor" type="String">
+            <default>#00BFFF</default>
+        </entry>
+        <entry name="ramUsageSensor" type="String">
+            <default>memory/physical/usedPercent</default>
+        </entry>
+        <entry name="showRam" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="ramBold" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="ramLabelColor" type="String">
+            <default>#FFFFFF</default>
+        </entry>
+        <entry name="ramPrecision" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="ramUseIcon" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="ramIconPath" type="String">
+            <default>memory</default>
+        </entry>
+        <entry name="ramIconSize" type="Int">
+            <default>16</default>
+        </entry>
+        
+        <!-- GPU Settings -->
+        <entry name="gpuFontSize" type="Int">
+            <default>12</default>
+        </entry>
+        <entry name="gpuFontColor" type="String">
+            <default>#FF6600</default>
+        </entry>
+        <entry name="gpuTempSensor" type="String">
+            <default>gpu/gpu0/temperature</default>
+        </entry>
+        <entry name="gpuUsageSensor" type="String">
+            <default>gpu/gpu0/usage</default>
+        </entry>
+        <entry name="showGpu" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="gpuBold" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="gpuLabelColor" type="String">
+            <default>#FFFFFF</default>
+        </entry>
+        <entry name="gpuPrecision" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="gpuUseIcon" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="gpuIconPath" type="String">
+            <default>gpu</default>
+        </entry>
+        <entry name="gpuIconSize" type="Int">
+            <default>16</default>
+        </entry>
+
+        <!-- Storage Settings -->
+        <entry name="storageFontSize" type="Int">
+            <default>12</default>
+        </entry>
+        <entry name="storageFontColor" type="String">
+            <default>#FFD54F</default>
+        </entry>
+        <entry name="storageUsageSensor" type="String">
+            <default>disk/all/usedPercent</default>
+        </entry>
+        <entry name="showStorage" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="storageBold" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="storageLabelColor" type="String">
+            <default>#FFFFFF</default>
+        </entry>
+        <entry name="storagePrecision" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="storageUseIcon" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="storageIconPath" type="String">
+            <default>drive-harddisk</default>
+        </entry>
+        <entry name="storageIconSize" type="Int">
+            <default>16</default>
+        </entry>
+
+        <!-- Network Settings -->
+        <entry name="networkFontSize" type="Int">
+            <default>12</default>
+        </entry>
+        <entry name="networkFontColor" type="String">
+            <default>#B388FF</default>
+        </entry>
+        <entry name="networkDownloadSensor" type="String">
+            <default>network/all/download</default>
+        </entry>
+        <entry name="networkUploadSensor" type="String">
+            <default>network/all/upload</default>
+        </entry>
+        <entry name="showNetwork" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="networkBold" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="networkFixedWidth" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="networkUnit" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="networkLabelColor" type="String">
+            <default>#FFFFFF</default>
+        </entry>
+        <entry name="networkUseIcon" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="networkIconPath" type="String">
+            <default>network-wired</default>
+        </entry>
+        <entry name="networkIconSize" type="Int">
+            <default>16</default>
+        </entry>
+        
+        <!-- General Settings -->
+        <entry name="autoFullView" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="updateInterval" type="Int">
+            <default>2000</default>
+        </entry>
+        <entry name="labelFontSize" type="Int">
+            <default>11</default>
+        </entry>
+        <entry name="labelFontColor" type="String">
+            <default>#FFFFFF</default>
+        </entry>
+        <entry name="spacing" type="Int">
+            <default>8</default>
+        </entry>
+        <entry name="fontFamily" type="String">
+            <default>Sans Serif</default>
+        </entry>
+    </group>
+
+    <group name="Appearance">
+        <entry name="title" type="String"/>
+        <entry name="chartFace" type="String">
+            <default>org.kde.ksysguard.sensordaddyoriginal</default>
+        </entry>
+    </group>
+
+    <group name="Sensors">
+        <entry name="totalSensor" type="String"/>
+        <entry name="sensorIds" type="StringList"/>
+        <entry name="sensorColors" type="StringList"/>
+        <entry name="textOnlySensorIds" type="StringList"/>
+    </group>
+</kcfg>
